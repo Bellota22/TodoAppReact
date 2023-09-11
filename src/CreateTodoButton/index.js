@@ -5,12 +5,11 @@ function CreateTodoButton({ setOpenModal }) {
   
     return (
       <div 
-        className='button-container'
-        onClick={() => setOpenModal(state =>!state)}
+        className='flex w-full justify-around'
         >
-        
-        <PlusCircleIcon
-        className='button' />
+          <PlusCircleIcon
+          onClick={() => setOpenModal(state =>!state)}
+          className='button w-8 h-8 cursor-pointer transform transition-transform hover:rotate-180' />
       </div>
     )
   }

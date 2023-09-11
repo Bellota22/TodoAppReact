@@ -6,12 +6,16 @@ function TodoSearch(){
 const {searchValue, setSearchValue} = useContext(TodoContext)
   
     return(
-     <input
-     value={searchValue}
-      onChange={(event) => 
-        setSearchValue(event.target.value)
-      }
-      placeholder="Hacer ejercicio" />
+      <div className='flex justify-center' >
+        <input
+         className='bg-transparent border border-solid border-[#ccc] text-sm text-black focus:outline-none px-4 py-2 rounded-lg mb-4 text-center'
+         value={searchValue}
+         onChange={(event) => 
+           setSearchValue(event.target.value)
+         }
+         placeholder="Hacer ejercicio" />
+
+      </div>
     )
   }
 

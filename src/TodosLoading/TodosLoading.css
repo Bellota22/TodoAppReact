@@ -2,7 +2,7 @@
     display: flex;
     max-height: 100px;
     flex-direction: row;
-    margin-right: 16px;
+    margin: 16px;
     align-items: center;
     justify-content: center;
   }

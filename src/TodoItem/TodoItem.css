@@ -1,15 +1,15 @@
-li{
+/* li{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-right: 10%;
-}
+} */
 
-.check {
+/* .check {
     width: 5%;
     height: 5%;
-}
-.check:hover {
+} */
+/* .check:hover {
     color: greenyellow;
 }
 
@@ -23,13 +23,13 @@ li{
 
 .erase {
     color: black;
-    width: 5%;
-    height: 5%;
-    transition: transform 0.5s ease;
+    /* width: 5%;
+    height: 5%; */
+    /* transition: transform 0.5s ease;
 }
 
 .erase:hover {
     color:red;
     transform: rotate(360deg)
 
-}
+} */ 

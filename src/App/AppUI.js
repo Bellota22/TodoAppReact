@@ -3,7 +3,6 @@ import { TodoItem } from '../TodoItem';
 import { TodoSearch } from '../TodoSearch';
 import { TodoList } from '../TodoList';
 import { CreateTodoButton } from '../CreateTodoButton';
-import { Layout } from '../Layout';
 import { TodosLoading } from '../TodosLoading';
 import { TodosError } from '../TodosError';
 import { EmptyTodos } from '../EmptyTodos';
@@ -25,7 +24,6 @@ function AppUI () {
   } = useContext(TodoContext)
     return (
         <>
-          <Layout>
             <TodoCounter />
             <TodoSearch />
             <TodoList>
@@ -55,7 +53,6 @@ function AppUI () {
                <TodoForm />
             </Modal>)}
 
-          </Layout>
         </>
       );
 }
