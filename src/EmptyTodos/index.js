@@ -2,7 +2,7 @@ import React from 'react'
 
 function EmptyTodos() {
   return (
-    <div>EmptyTodos</div>
+    <div>Agrega tu primera misión!</div>
   )
 }
 
