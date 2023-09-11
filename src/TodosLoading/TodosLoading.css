@@ -1,0 +1,40 @@
+.dots-loader {
+    display: flex;
+    max-height: 100px;
+    flex-direction: row;
+    margin-right: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .dots-loader div {
+    width: 8px;
+    height: 8px;
+    background-color: #010609; 
+    border-radius: 50%; 
+    margin: 0 3px;
+    animation: jump 0.6s infinite;
+  }
+  
+  .dots-loader div:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  
+  .dots-loader div:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .dots-loader div:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  
+  @keyframes jump {
+    0%, 80%, 100% {
+      transform: translateY(0);
+    }
+    
+    40% {
+      transform: translateY(-10px);
+    }
+  }
+  

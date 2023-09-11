@@ -1,0 +1,6 @@
+ul {
+    width: 30%;
+    border: 2px solid #ccc;
+    list-style: none;
+    border-radius: 10px;
+}

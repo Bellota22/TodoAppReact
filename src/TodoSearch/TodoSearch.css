@@ -1,0 +1,23 @@
+input {
+    width: 35%;
+    height: 32px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid #ccc;
+    background-color: transparent;
+    padding: 10px;
+    text-decoration: red;
+    display: flex;
+    justify-content: center;
+}
+
+input:hover {
+
+    outline: none;
+    border-color: black;
+}
+input::placeholder{
+
+    color:rgb(75, 66, 66);
+    
+}
