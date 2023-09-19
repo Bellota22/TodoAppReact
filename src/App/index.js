@@ -25,21 +25,29 @@ import { useTodos } from './useTodos';
 
 function App() {
   const {
+    states,
+    stateUpdaters    
+  } = useTodos()
+
+
+  const {
     loading,
     error,
+    completedTodos,
+    totalTodos, 
+    searchValue,
+  } = states
+
+  const {
     searchedTodos,
     completeTodo,
     deleteTodo,
     openModal,
-    setOpenModal,
-    totalTodos, 
-    completedTodos,
-    searchValue,
     setSearchValue,
+    setOpenModal,
     addTodo,
-
-    
-  } = useTodos()
+  } = stateUpdaters
+  
   return (
     <>
         <TodoHeader
